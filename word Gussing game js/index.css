@@ -1,0 +1,77 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(209, 142, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page {
+    background-color: rgb(165, 114, 53);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.page h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    border-bottom: 1px solid wheat;
+    padding: 10px;
+}
+
+.page h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 13px;
+}
+
+.page h4 {
+
+
+    font-family: sans-serif;
+
+    padding: 10px;
+}
+
+
+.page input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.page input:focus {
+    outline: none;
+}
+
+
+.page button {
+    width: 49%;
+    padding: 13px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.page #refresh-btn {
+    background-color: rgb(222, 188, 188);
+}
+
+.page #check-btn {
+    background-color: rgb(158, 151, 151);
+}
